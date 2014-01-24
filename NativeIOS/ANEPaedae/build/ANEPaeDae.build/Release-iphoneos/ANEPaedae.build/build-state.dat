@@ -1,0 +1,266 @@
+TANEPaedae
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch ANEPaedae/ANEPaedae-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/libANEPaedae.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052A13385000000000000036B
+t1386296197
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052A1338600000000000001A0
+t1386296198
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000052A1338800000000006279A0
+t1386296200
+s6453664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+c0000000052A133870000000000017A40
+t1386296199
+s96832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052A133880000000000CF72E0
+t1386296200
+s13595360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000052A133880000000000630EB0
+t1386296200
+s6491824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000052A13389000000000079BFE0
+t1386296201
+s7978976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052A1338900000000004D63C0
+t1386296201
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052A133890000000000146100
+t1386296201
+s1335552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000052A14FA500000000002BDF10
+t1386303397
+s2875152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000052A14FA6000000000006F7F0
+t1386303398
+s456688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052A14FA70000000000A92BC0
+t1386303399
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052A14FAA0000000000210C80
+t1386303402
+s2165888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000052A14FAC0000000000046ED0
+t1386303404
+s290512
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052A14FAC0000000000640E80
+t1386303404
+s6557312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000052A14FAC000000000017E0C0
+t1386303404
+s1564864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000052A14FAD00000000001A2270
+t1386303405
+s1712752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052A14FB000000000025A5AC0
+t1386303408
+s39475904
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch
+c0000000052E2AB6C000000000000011B
+t1390586732
+s283
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m
+c0000000052E2D8980000000000001316
+t1390598296
+s4886
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m
+c000000004FFF1826000000000002B471
+t1342117926
+s177265
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/PaeDaeSDK/libPaeDaeSDK.a
+c0000000052CDE7980000000000125434
+t1389225880
+s1201204
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.LinkFileList
+c0000000052E2E4DD0000000000000122
+t1390601437
+s290
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o
+t1390601438
+s13764
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o
+t1390601438
+s269084
+
+N/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/libANEPaedae.a
+t2
+s0
+
+N/var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch
+t1390601437
+s3142144
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies721a825d1c93b841^681f8b5d1c93b841^---0#1#1#--18"Check dependencies36"DA4CCF38-3FA1-4F68-9AB4-9FCC57498481-
+
+CCompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412294237.817907
+e412294238.079024
+r1
+xCompileC
+xbuild/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o
+x/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.h
+d/Applications/Adobe Flash Builder 4.7/sdks/4.6.0 (Air 4.0)/include/FlashRuntimeExtensions.h
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/PaeDaeSDK/PaeDaeSDK.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m187"CompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o ANEPaedae/ANEPaedae.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc977d15d1c93b841^603b145e1c93b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m0000000000000000^3617"CompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o ANEPaedae/ANEPaedae.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fno-objc-exceptions -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-generated-files.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-own-target-headers.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-all-target-headers.hmap -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-project-headers.hmap -iquote/Applications/Adobe\ Flash\ Builder\ 4.7/sdks/4.6.0\ (Air\ 4.0)/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources/armv7 -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources -F/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos -include /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch -MMD -MT dependencies -MF /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.d --serialize-diagnostics /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.dia -c /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae.m -o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.o36"654DCD3E-34F6-48E6-A160-1371A7A367D5-
+b25624502-2B99-4BA8-AEC8-54623709E32D
+
+CCompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412294237.817541
+e412294238.817242
+r1
+xCompileC
+xbuild/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o
+x/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.h
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:680:12: warning: 'isa' is deprecated [-Wdeprecated-declarations]
+o    array->isa      = _JKArrayClass;
+o           ^
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: 'isa' declared here
+o    Class isa  OBJC_ISA_AVAILABILITY;
+o          ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:680:5: warning: assignment to Objective-C's isa is deprecated in favor of object_setClass() [-Wdeprecated-objc-isa-usage]
+o    array->isa      = _JKArrayClass;
+o    ^    ~~~~~~~~~~~~
+o    object_setClass( ,             )
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: instance variable is declared here
+o    Class isa  OBJC_ISA_AVAILABILITY;
+o          ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:931:17: warning: 'isa' is deprecated [-Wdeprecated-declarations]
+o    dictionary->isa      = _JKDictionaryClass;
+o                ^
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: 'isa' declared here
+o    Class isa  OBJC_ISA_AVAILABILITY;
+o          ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:931:5: warning: assignment to Objective-C's isa is deprecated in favor of object_setClass() [-Wdeprecated-objc-isa-usage]
+o    dictionary->isa      = _JKDictionaryClass;
+o    ^         ~~~~~~~~~~~~
+o    object_setClass( ,                       )
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:
+oIn file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: instance variable is declared here
+o    Class isa  OBJC_ISA_AVAILABILITY;
+o          ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:2598:77: warning: bitmasking for introspection of Objective-C object pointers is strongly discouraged [-Wdeprecated-objc-pointer-introspection]
+o  BOOL   workAroundMacOSXABIBreakingBug = (JK_EXPECT_F(((NSUInteger)object) & 0x1))     ? YES  : NO;
+o                                                       ~~~~~~~~~~~~~~~~~~~~ ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'
+o#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)
+o                                                    ^
+o/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o5 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m183"CompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o ANEPaedae/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera169d15d1c93b841^6136d15e1c93b841^-6030"/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:680:12: warning: 'isa' is deprecated [-Wdeprecated-declarations]    array->isa      = _JKArrayClass;           ^In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: 'isa' declared here    Class isa  OBJC_ISA_AVAILABILITY;          ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:680:5: warning: assignment to Objective-C's isa is deprecated in favor of object_setClass() [-Wdeprecated-objc-isa-usage]    array->isa      = _JKArrayClass;    ^    ~~~~~~~~~~~~    object_setClass( ,             )In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: instance variable is declared here    Class isa  OBJC_ISA_AVAILABILITY;          ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:931:17: warning: 'isa' is deprecated [-Wdeprecated-declarations]    dictionary->isa      = _JKDictionaryClass;                ^In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: 'isa' declared here    Class isa  OBJC_ISA_AVAILABILITY;          ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:931:5: warning: assignment to Objective-C's isa is deprecated in favor of object_setClass() [-Wdeprecated-objc-isa-usage]    dictionary->isa      = _JKDictionaryClass;    ^         ~~~~~~~~~~~~    object_setClass( ,                       )In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:1:In file included from /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:5:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:6:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h:53:11: note: instance variable is declared here    Class isa  OBJC_ISA_AVAILABILITY;          ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:2598:77: warning: bitmasking for introspection of Objective-C object pointers is strongly discouraged [-Wdeprecated-objc-pointer-introspection]  BOOL   workAroundMacOSXABIBreakingBug = (JK_EXPECT_F(((NSUInteger)object) & 0x1))     ? YES  : NO;                                                       ~~~~~~~~~~~~~~~~~~~~ ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)                                                    ^/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@19"'isa' is deprecated-412294238#18446744073709551615#0#1(2@19"'isa' declared here-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@136"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h0000000000000000^52#10#52#10#1156#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^679#11#679#11#28498#0#12"Deprecations--2@75"Assignment to Objective-C's isa is deprecated in favor of object_setClass()-412294238#18446744073709551615#0#1(2@34"Instance variable is declared here-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@136"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h0000000000000000^52#10#52#10#1156#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^679#4#679#4#28491#0#14"Semantic Issue3(3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^679#4#679#4#28491#0#3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^679#9#679#21#28496#12#3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^679#35#679#35#28522#0#-2@19"'isa' is deprecated-412294238#18446744073709551615#0#1(2@19"'isa' declared here-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@136"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h0000000000000000^52#10#52#10#1156#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^930#16#930#16#41798#0#12"Deprecations--2@75"Assignment to Objective-C's isa is deprecated in favor of object_setClass()-412294238#18446744073709551615#0#1(2@34"Instance variable is declared here-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@136"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/objc/NSObject.h0000000000000000^52#10#52#10#1156#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^930#4#930#4#41786#0#14"Semantic Issue3(3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^930#4#930#4#41786#0#3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^930#14#930#26#41796#12#3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^930#45#930#45#41827#0#-2@83"Bitmasking for introspection of Objective-C object pointers is strongly discouraged-412294238#18446744073709551615#0#2(2@33"Expanded from macro 'JK_EXPECT_F'-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^196#52#196#52#8016#0#21"Apple LLVM 5.0 Notice1(3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^2597#55#2597#75#145290#19#-2@33"Expanded from macro 'JK_EXPECTED'-412294238#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^194#64#194#64#7885#0#21"Apple LLVM 5.0 Notice1(3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^2597#55#2597#75#145290#19#-1#27"com.apple.dt.IDE.diagnostic3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^2597#76#2597#76#145311#0#14"Semantic Issue1(3@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^2597#55#2597#75#145290#19#-0#0#1#-19%DVTDocumentLocation4@84"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m0000000000000000^3605"CompileC build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o ANEPaedae/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fno-objc-exceptions -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-generated-files.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-own-target-headers.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-all-target-headers.hmap -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-project-headers.hmap -iquote/Applications/Adobe\ Flash\ Builder\ 4.7/sdks/4.6.0\ (Air\ 4.0)/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources/armv7 -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources -F/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos -include /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch -MMD -MT dependencies -MF /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.d --serialize-diagnostics /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.dia -c /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/JSONKit.m -o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/JSONKit.o36"215D961D-93AB-4470-8EB4-7C4B29509A9D-
+b25624502-2B99-4BA8-AEC8-54623709E32D
+
+CLibtool /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/libANEPaedae.a normal armv7
+s412294238.818346
+e412294238.878750
+r1
+xLibtool
+x/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/libANEPaedae.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool build/Release-iphoneos/libANEPaedae.a normal armv758"Libtool build/Release-iphoneos/libANEPaedae.a normal armv76093d15e1c93b841^1af9e05e1c93b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1520"Libtool build/Release-iphoneos/libANEPaedae.a normal armv7    cd /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos -L/Users/philharvey/Dropbox/paedae/paedae-ios-sdk-master/PaeDaeSDK -L/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaedae/ANEPaedae/PaeDaeSDK -filelist /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/Objects-normal/armv7/ANEPaedae.LinkFileList -ObjC -framework AdSupport -lPaeDaeSDK -framework CoreMedia -framework Security -framework CoreFoundation -framework CoreLocation -framework MobileCoreServices -framework CoreVideo -framework CFNetwork -framework UIKit -framework CoreGraphics -framework OpenGLES -framework AudioToolbox -framework SystemConfiguration -framework Foundation -framework AVFoundation -framework QuartzCore -o /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/libANEPaedae.a36"B2C21329-D567-44AC-B842-C3E429147264-
+b25624502-2B99-4BA8-AEC8-54623709E32D
+
+CProcessPCH /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch ANEPaedae/ANEPaedae-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412294237.546256
+e412294237.816611
+r1
+xProcessPCH
+x/var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch
+xANEPaedae/ANEPaedae-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ANEPaedae/ANEPaedae-Prefix.pch299"ProcessPCH /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch ANEPaedae/ANEPaedae-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc1fe8b5d1c93b841^880ed15d1c93b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch0000000000000000^3676"ProcessPCH /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch ANEPaedae/ANEPaedae-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fno-objc-exceptions -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-generated-files.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-own-target-headers.hmap -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-all-target-headers.hmap -iquote /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/ANEPaedae-project-headers.hmap -iquote/Applications/Adobe\ Flash\ Builder\ 4.7/sdks/4.6.0\ (Air\ 4.0)/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources/armv7 -I/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/ANEPaeDae.build/Release-iphoneos/ANEPaedae.build/DerivedSources -F/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/build/Release-iphoneos --serialize-diagnostics /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.d -c /Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaeDae/ANEPaedae/ANEPaedae-Prefix.pch -o /var/folders/fc/_2brvtmn5klgg9sng9mjqh8h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ANEPaedae-Prefix-afjvrfvpnekhlwbheflhixveyvun/ANEPaedae-Prefix.pch.pch36"9289F1E4-7F88-48D6-8DF4-37B9FACE0D1E-
+b25624502-2B99-4BA8-AEC8-54623709E32D
+
