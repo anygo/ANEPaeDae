@@ -21,8 +21,8 @@
     <copyright>2012 FreshPlanet</copyright> 
     <linkerOptions>
         <!--        <option>-framework AdSupport</option> -->
-        <option>-lz</option>
-        <option>-all_load</option>
+<!--        <option>-lz</option> -->
+<!--        <option>-all_load</option> -->
     </linkerOptions>
     <packagedDependencies>
 <!--            <packagedDependency>libPaeDaeSDK.a</packagedDependency> -->

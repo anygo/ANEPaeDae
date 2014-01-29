@@ -58,9 +58,9 @@ static ANEPaedae *sharedInstance = nil;
  * Users of this template are expected to change this and add similar functions 
  * to be able to call the native functions in the ANE from their ActionScript code
  */
-DEFINE_ANE_FUNCTION(IsSupported)
+DEFINE_ANE_FUNCTION(isSupported)
 {
-    NSLog(@"Entering IsSupported()");
+    NSLog(@"Entering isSupported()");
 
     FREObject fo;
 
@@ -76,24 +76,25 @@ DEFINE_ANE_FUNCTION(IsSupported)
         NSLog(@"Result = %d", aResult);
     }
     
-    NSLog(@"Exiting IsSupported()");
+    NSLog(@"Exiting isSupported()");
     
     return fo;
 }
 
 
-DEFINE_ANE_FUNCTION(init)
+DEFINE_ANE_FUNCTION(initWithAppId)
 {
     uint32_t    strLen;
     
     NSString    *id = nil;
     const   uint8_t *idString;
     
-    if (FREGetObjectAsUTF8(argv[0], &strLen, &idString) == FRE_OK)
+    if (FREGetObjectAsUTF8(argv[0], &strLen, &idString) == FRE_OK)`
     {
         id = [NSString stringWithUTF8String:(char*)idString];
     }
     
+    NSLog(@"initWithAppId(): %@", id);
     [[PaeDaeSDK sharedManager] initWithAppId:id];
     
     return nil;
@@ -123,11 +124,11 @@ void ANEPaeDaeContextInitializer(void* extData, const uint8_t* ctxType, FREConte
     FRENamedFunction* func = (FRENamedFunction*) malloc(sizeof(FRENamedFunction) * (*numFunctionsToTest));
     func[0].name = (const uint8_t*) "isSupported";
     func[0].functionData = NULL;
-    func[0].function = &IsSupported;
+    func[0].function = &isSupported;
 
-    func[1].name = (const uint8_t*) "init";
+    func[1].name = (const uint8_t*) "initWithAppId";
     func[1].functionData = NULL;
-    func[1].function = &init;
+    func[1].function = &initWithAppId;
 
     func[2].name = (const uint8_t*) "showAd";
     func[2].functionData = NULL;

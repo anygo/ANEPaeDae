@@ -32,8 +32,8 @@
  * Users of this template are expected to change this and add similar functions 
  * to be able to call the native functions in the ANE from their ActionScript code
 */
-DEFINE_ANE_FUNCTION(IsSupported);
-DEFINE_ANE_FUNCTION(init);
+DEFINE_ANE_FUNCTION(isSupported);
+DEFINE_ANE_FUNCTION(initWithAppId);
 DEFINE_ANE_FUNCTION(showAd);
 
 

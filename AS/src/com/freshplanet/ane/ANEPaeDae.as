@@ -21,6 +21,7 @@ package com.freshplanet.ane
 	import flash.events.EventDispatcher;
 	import flash.events.StatusEvent;
 	import flash.external.ExtensionContext;
+	import flash.utils.Dictionary;
 
 	public class ANEPaeDae extends EventDispatcher
 	{
@@ -64,7 +65,6 @@ package com.freshplanet.ane
 			return extCtx.call('isSupported');
 		}
 		
-		
 		/**
 		 * Status events allow the native part of the ANE to communicate with the ActionScript part.
 		 * We use event.code to represent the type of event, and event.level to carry the data.
@@ -77,14 +77,20 @@ package com.freshplanet.ane
 			}
 		}
 		
-		public function init(id:String) : void
+		public function initWithAppId (id:String) : void
 		{
-			extCtx.call('init', id);
+			trace('[ANEPaeDae initWithAppId] ' + id);
+			
+			extCtx.call('initWithAppId', id);
 		}
 
-		public function showAd() : void
+		public function showAd (options:Dictionary = null) : void
 		{
 			extCtx.call('showAd');
+		}
+		
+		public	function help ():void
+		{
 		}
 	}
 }

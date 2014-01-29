@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11B9CBF1896E8100041904E /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D11B9CBA1896E8100041904E /* JSONKit.h */; };
+		D11B9CC01896E8100041904E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D11B9CBB1896E8100041904E /* JSONKit.m */; };
+		D11B9CC11896E8100041904E /* libPaeDaeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D11B9CBD1896E8100041904E /* libPaeDaeSDK.a */; };
+		D11B9CC21896E8100041904E /* PaeDaeSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D11B9CBE1896E8100041904E /* PaeDaeSDK.h */; };
 		D13FBB1F1892E2EC00E2CD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB1E1892E2EC00E2CD8E /* Foundation.framework */; };
 		D13FBB211892E2EC00E2CD8E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB201892E2EC00E2CD8E /* CoreFoundation.framework */; };
 		D13FBB231892E2EC00E2CD8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB221892E2EC00E2CD8E /* UIKit.framework */; };
@@ -24,13 +28,13 @@
 		D13FBB3B1892E2EC00E2CD8E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB3A1892E2EC00E2CD8E /* Security.framework */; };
 		D13FBB411892E2EC00E2CD8E /* ANEPaedae.m in Sources */ = {isa = PBXBuildFile; fileRef = D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */; };
 		D19E94B31892E5F00015D2F3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19E94B21892E5F00015D2F3 /* AdSupport.framework */; };
-		D1A0F8E31892F58C00CC80AB /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A0F8E11892F58C00CC80AB /* JSONKit.h */; };
-		D1A0F8E41892F58C00CC80AB /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A0F8E21892F58C00CC80AB /* JSONKit.m */; };
-		D1A0F8E71892F59F00CC80AB /* libPaeDaeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A0F8E51892F59F00CC80AB /* libPaeDaeSDK.a */; };
-		D1A0F8E81892F59F00CC80AB /* PaeDaeSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A0F8E61892F59F00CC80AB /* PaeDaeSDK.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D11B9CBA1896E8100041904E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D11B9CBB1896E8100041904E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D11B9CBD1896E8100041904E /* libPaeDaeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaeDaeSDK.a; sourceTree = "<group>"; };
+		D11B9CBE1896E8100041904E /* PaeDaeSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaeDaeSDK.h; sourceTree = "<group>"; };
 		D13FBB1B1892E2EC00E2CD8E /* libANEPaedae.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANEPaedae.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13FBB1E1892E2EC00E2CD8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D13FBB201892E2EC00E2CD8E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -52,10 +56,6 @@
 		D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ANEPaedae.m; sourceTree = "<group>"; };
 		D13FBB421892E2EC00E2CD8E /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
 		D19E94B21892E5F00015D2F3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		D1A0F8E11892F58C00CC80AB /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		D1A0F8E21892F58C00CC80AB /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		D1A0F8E51892F59F00CC80AB /* libPaeDaeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPaeDaeSDK.a; path = ANEPaedae/PaeDaeSDK/libPaeDaeSDK.a; sourceTree = SOURCE_ROOT; };
-		D1A0F8E61892F59F00CC80AB /* PaeDaeSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaeDaeSDK.h; path = ANEPaedae/PaeDaeSDK/PaeDaeSDK.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19E94B31892E5F00015D2F3 /* AdSupport.framework in Frameworks */,
-				D1A0F8E71892F59F00CC80AB /* libPaeDaeSDK.a in Frameworks */,
+				D11B9CC11896E8100041904E /* libPaeDaeSDK.a in Frameworks */,
 				D13FBB351892E2EC00E2CD8E /* CoreMedia.framework in Frameworks */,
 				D13FBB3B1892E2EC00E2CD8E /* Security.framework in Frameworks */,
 				D13FBB211892E2EC00E2CD8E /* CoreFoundation.framework in Frameworks */,
@@ -86,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D11B9CBC1896E8100041904E /* PaeDaeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D11B9CBD1896E8100041904E /* libPaeDaeSDK.a */,
+				D11B9CBE1896E8100041904E /* PaeDaeSDK.h */,
+			);
+			path = PaeDaeSDK;
+			sourceTree = "<group>";
+		};
 		D13FBB121892E2EC00E2CD8E = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +138,9 @@
 		D13FBB3C1892E2EC00E2CD8E /* ANEPaedae */ = {
 			isa = PBXGroup;
 			children = (
-				D1A0F8E11892F58C00CC80AB /* JSONKit.h */,
-				D1A0F8E21892F58C00CC80AB /* JSONKit.m */,
-				D19E94AE1892E57A0015D2F3 /* PaeDaeSDK */,
+				D11B9CBA1896E8100041904E /* JSONKit.h */,
+				D11B9CBB1896E8100041904E /* JSONKit.m */,
+				D11B9CBC1896E8100041904E /* PaeDaeSDK */,
 				D13FBB3F1892E2EC00E2CD8E /* ANEPaedae.h */,
 				D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */,
 				D13FBB3D1892E2EC00E2CD8E /* Supporting Files */,
@@ -148,16 +157,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D19E94AE1892E57A0015D2F3 /* PaeDaeSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D1A0F8E51892F59F00CC80AB /* libPaeDaeSDK.a */,
-				D1A0F8E61892F59F00CC80AB /* PaeDaeSDK.h */,
-			);
-			name = PaeDaeSDK;
-			path = "../../../../../Dropbox/paedae/paedae-ios-sdk-master/PaeDaeSDK";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -165,8 +164,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A0F8E31892F58C00CC80AB /* JSONKit.h in Headers */,
-				D1A0F8E81892F59F00CC80AB /* PaeDaeSDK.h in Headers */,
+				D11B9CBF1896E8100041904E /* JSONKit.h in Headers */,
+				D11B9CC21896E8100041904E /* PaeDaeSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A0F8E41892F58C00CC80AB /* JSONKit.m in Sources */,
+				D11B9CC01896E8100041904E /* JSONKit.m in Sources */,
 				D13FBB411892E2EC00E2CD8E /* ANEPaedae.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +288,7 @@
 					"/Users/philharvey/Dropbox/paedae/paedae-ios-sdk-master/PaeDaeSDK",
 					/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaedae/ANEPaedae/PaeDaeSDK,
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -310,6 +310,7 @@
 					"/Users/philharvey/Dropbox/paedae/paedae-ios-sdk-master/PaeDaeSDK",
 					/Users/philharvey/Documents/ANEPaeDae/NativeIOS/ANEPaedae/ANEPaedae/PaeDaeSDK,
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

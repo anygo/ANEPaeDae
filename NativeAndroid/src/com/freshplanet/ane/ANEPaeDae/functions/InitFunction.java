@@ -3,9 +3,7 @@ package com.freshplanet.ane.ANEPaeDae.functions;
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREObject;
 import com.freshplanet.ane.ANEPaeDae.ANEPaeDaeExtension;
-import com.freshplanet.ane.ANEPaeDae.ANEPaeDaeExtensionContext;
 import com.freshplanet.ane.ANEPaeDae.BaseFunction;
-import com.paedae.android.sdk.PaeDae;
 
 public class InitFunction extends BaseFunction 
 {

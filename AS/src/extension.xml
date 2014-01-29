@@ -18,13 +18,13 @@
 
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
   <id>com.freshplanet.ane.ANEPaeDae</id>
-  <versionNumber>0.1</versionNumber>
+  <versionNumber>0.2</versionNumber>
   <platforms>
     <platform name="iPhone-ARM">
             <applicationDeployment>
                 <nativeLibrary>libANEPaeDae.a</nativeLibrary>
-                <initializer>ANEPaeDaeExtInitializer</initializer>
-                <finalizer>ANEPaeDaeExtFinalizer</finalizer>
+                <initializer>ANEPaedaeExtInitializer</initializer>
+                <finalizer>ANEPaedaeExtFinalizer</finalizer>
             </applicationDeployment>
     </platform>
     <platform name="Android-ARM"> 
