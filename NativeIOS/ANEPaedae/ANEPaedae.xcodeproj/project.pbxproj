@@ -27,6 +27,8 @@
 		D13FBB391892E2EC00E2CD8E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB381892E2EC00E2CD8E /* AVFoundation.framework */; };
 		D13FBB3B1892E2EC00E2CD8E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13FBB3A1892E2EC00E2CD8E /* Security.framework */; };
 		D13FBB411892E2EC00E2CD8E /* ANEPaedae.m in Sources */ = {isa = PBXBuildFile; fileRef = D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */; };
+		D19E49D118A00F2200F312C1 /* ANEPaeDaeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E49CF18A00F2200F312C1 /* ANEPaeDaeDelegate.h */; };
+		D19E49D218A00F2200F312C1 /* ANEPaeDaeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E49D018A00F2200F312C1 /* ANEPaeDaeDelegate.m */; };
 		D19E94B31892E5F00015D2F3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19E94B21892E5F00015D2F3 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		D13FBB3F1892E2EC00E2CD8E /* ANEPaedae.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANEPaedae.h; sourceTree = "<group>"; };
 		D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = ANEPaedae.m; sourceTree = "<group>"; };
 		D13FBB421892E2EC00E2CD8E /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		D19E49CF18A00F2200F312C1 /* ANEPaeDaeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPaeDaeDelegate.h; sourceTree = "<group>"; };
+		D19E49D018A00F2200F312C1 /* ANEPaeDaeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPaeDaeDelegate.m; sourceTree = "<group>"; };
 		D19E94B21892E5F00015D2F3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -144,6 +148,8 @@
 				D13FBB3F1892E2EC00E2CD8E /* ANEPaedae.h */,
 				D13FBB401892E2EC00E2CD8E /* ANEPaedae.m */,
 				D13FBB3D1892E2EC00E2CD8E /* Supporting Files */,
+				D19E49CF18A00F2200F312C1 /* ANEPaeDaeDelegate.h */,
+				D19E49D018A00F2200F312C1 /* ANEPaeDaeDelegate.m */,
 			);
 			path = ANEPaedae;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19E49D118A00F2200F312C1 /* ANEPaeDaeDelegate.h in Headers */,
 				D11B9CBF1896E8100041904E /* JSONKit.h in Headers */,
 				D11B9CC21896E8100041904E /* PaeDaeSDK.h in Headers */,
 			);
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19E49D218A00F2200F312C1 /* ANEPaeDaeDelegate.m in Sources */,
 				D11B9CC01896E8100041904E /* JSONKit.m in Sources */,
 				D13FBB411892E2EC00E2CD8E /* ANEPaedae.m in Sources */,
 			);

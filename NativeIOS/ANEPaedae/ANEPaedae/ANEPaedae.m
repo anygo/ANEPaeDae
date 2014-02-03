@@ -18,9 +18,10 @@
 
 #import "ANEPaedae.h"
 #import "PaeDaeSDK.h"
+#import "ANEPaeDaeDelegate.h"
 
-FREContext ANEPaedaeCtx = nil;
-
+FREContext          ANEPaedaeCtx = nil;
+ANEPaeDaeDelegate   *paeDaeDelegate = nil;
 
 @implementation ANEPaedae
 
@@ -86,23 +87,34 @@ DEFINE_ANE_FUNCTION(initWithAppId)
 {
     uint32_t    strLen;
     
-    NSString    *id = nil;
-    const   uint8_t *idString;
+//    PDDEBUG = true;
     
-    if (FREGetObjectAsUTF8(argv[0], &strLen, &idString) == FRE_OK)`
+    if (paeDaeDelegate == nil)
     {
-        id = [NSString stringWithUTF8String:(char*)idString];
+        paeDaeDelegate = [[ANEPaeDaeDelegate alloc] init];
     }
     
-    NSLog(@"initWithAppId(): %@", id);
-    [[PaeDaeSDK sharedManager] initWithAppId:id];
+    NSString    *appID = nil;
+    const   uint8_t *idString;
+    
+    if (FREGetObjectAsUTF8(argv[0], &strLen, &idString) == FRE_OK)
+    {
+        appID = [NSString stringWithUTF8String:(char*)idString];
+    }
+    
+    NSLog(@"initWithAppId with delegate(): %@", appID);
+    
+    [[PaeDaeSDK sharedManager] initWithAppId:appID andDelegate:paeDaeDelegate];
     
     return nil;
 }
 
 DEFINE_ANE_FUNCTION(showAd)
 {
-    [[PaeDaeSDK sharedManager] showAd];
+    NSLog(@"showAd");
+    
+    NSDictionary    *adOptions = [NSDictionary dictionaryWithObjectsAndKeys:@"52e9341a6170701f88291602", @"zone_id", nil];
+    [[PaeDaeSDK sharedManager] showAdWithOptions:adOptions andDelegate:paeDaeDelegate];
     
     return nil;
 }

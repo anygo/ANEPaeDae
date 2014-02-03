@@ -16,11 +16,12 @@
 //  
 ///////////////////////////////////////////////////////////////////////////////////-->
 
-<platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>6.0</sdkVersion>
     <description >ANEPaedae</description> 
     <copyright>2012 FreshPlanet</copyright> 
     <linkerOptions>
-        <!--        <option>-framework AdSupport</option> -->
+        <option>-framework AdSupport</option>
 <!--        <option>-lz</option> -->
 <!--        <option>-all_load</option> -->
     </linkerOptions>
