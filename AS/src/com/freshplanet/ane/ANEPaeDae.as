@@ -21,7 +21,6 @@ package com.freshplanet.ane
 	import flash.events.EventDispatcher;
 	import flash.events.StatusEvent;
 	import flash.external.ExtensionContext;
-	import flash.utils.Dictionary;
 
 	public class ANEPaeDae extends EventDispatcher
 	{
@@ -84,9 +83,9 @@ package com.freshplanet.ane
 			extCtx.call('initWithAppId', id);
 		}
 
-		public function showAd (options:Dictionary = null) : void
+		public function showAd (zoneID:String) : void
 		{
-			extCtx.call('showAd');
+			extCtx.call('showAd', zoneID);
 		}
 		
 		public	function help ():void

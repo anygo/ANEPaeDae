@@ -86,8 +86,7 @@ DEFINE_ANE_FUNCTION(isSupported)
 DEFINE_ANE_FUNCTION(initWithAppId)
 {
     uint32_t    strLen;
-    
-//    PDDEBUG = true;
+    PDDEBUG = true;
     
     if (paeDaeDelegate == nil)
     {
@@ -111,9 +110,18 @@ DEFINE_ANE_FUNCTION(initWithAppId)
 
 DEFINE_ANE_FUNCTION(showAd)
 {
-    NSLog(@"showAd");
+    NSString    *zoneID = nil;
+    uint32_t    strLen;
+    const   uint8_t *idString;
     
-    NSDictionary    *adOptions = [NSDictionary dictionaryWithObjectsAndKeys:@"52e9341a6170701f88291602", @"zone_id", nil];
+    if (FREGetObjectAsUTF8(argv[0], &strLen, &idString) == FRE_OK)
+    {
+        zoneID = [NSString stringWithUTF8String:(char*)idString];
+    }
+    
+    NSLog(@"showAd: %@", zoneID);
+    
+    NSDictionary    *adOptions = [NSDictionary dictionaryWithObjectsAndKeys:zoneID, @"zone_id", nil];
     [[PaeDaeSDK sharedManager] showAdWithOptions:adOptions andDelegate:paeDaeDelegate];
     
     return nil;
